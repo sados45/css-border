@@ -1,0 +1,20 @@
+#head1{
+    color:rgb(113, 17, 168);/*RGB degerleri 3 ana rengin karisimiyla (Kirmizi, Yesil, Mavi) olustugu icin deger sayilari 0 ile 255 arasinda verilebilir.*/
+}
+#head2{
+    color:rgba(200,90,80,70);
+    /*rgba bu sonundaki a (alpha) harfinin yerini tutan renk degil. opak yapiyor. rengi soluklastiriyor.*/
+}
+h3.description{
+
+    color: #c71066;/* Hex Values dedigim rakam ve numara ile nokta renk atamasidir*/
+    font-size:20px;
+    border-width:1px 5px 1px 5px;/*üst sag alt sol(top right bottom left) kisaca yacak olursak (border-width: 1px 5px)*/
+    border-style:solid;
+    Border-color:red;
+}
+/*yukaridaki h3.descriptiondaq bulunan border özelligini söyle de kisaltabiliriz.*/
+h3.description{
+
+    border:2px dotted blue;/* ilki width sonra style, en son renk*/
+}
